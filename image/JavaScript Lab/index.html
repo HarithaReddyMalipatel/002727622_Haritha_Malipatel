@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List Lab</title>
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Google Fonts  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="tododiv" class="header">
+      <h2>To Do List</h2>
+      <!-- Input textfield to add task to list -->
+      <input type="text" id="myInput" placeholder="Add Task" />
+      <!-- newElement function gets call -->
+      <span class="addBtn" onclick="newElement()">Add</span>
+    </div>
+    <!-- list to add task  -->
+    <ul id="myUl">
+      <li>Task 1</li>
+      <li>Task 2</li>
+      <li>Task 3</li>
+      <li>Task 4</li>
+      <li>Task 5</li>
+      <li>Task 6</li>
+    </ul>
+
+    <!-- script tag to import script.js file -->
+    <script src="/script.js"></script>
+  </body>
+</html>
