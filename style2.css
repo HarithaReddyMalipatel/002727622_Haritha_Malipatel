@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+    height: 90vh;
+    background-image:url(image/bg3.jpg);
+    background-size: cover;
+    background-position-y: 20%;
+    font-family: sans-serif;
+    color:whitesmoke;
+} 
+.groceryimage {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 400px;
+    text-align: center ;
+
+}
+.grocerypic{    box-shadow: 10px 10px grey;
+}
+ 
+.viewpic{    box-shadow: 10px 10px grey;
+}
+.itemsafter {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.grocerypic{
+    height: 200px;
+    width: 200px;
+}
+
+.gallery:hover{
+  cursor: pointer;
+  border-radius: 25px;
+  box-shadow: 10px -10px grey;
+  border: 1px solid gray;
+}
+
+h2.products{
+   font-family: cursive;
+}
+  
+button.buy {    
+    border: none;  
+    font-size: 15px;
+    padding: 11px 14px;
+    border-radius: 23px;
+    background-color: #93dfed;
+    font-family: cursive;
+}
+  
+button.buy:hover{
+  text-decoration: underline;
+}
+.maintitle{
+    text-align: center;
+    font-family: cursive;
+}
+p.producttitle{
+    font-family: cursive;
+    text-align: center;
+    font-size: 25px;
+}
+a.viewall {
+  text-decoration: none;
+  font-family: cursive;
+  font-size: 22px;
+  color: #fff;
+  float: right;
+}
+a.viewall:hover{
+  text-decoration: underline;
+}
+video{
+  display: block;
+  margin: 0 auto;
+}
+.grocerymain{
+  width:100%;
+  height: 600px;
+}
+h1.mainpic {
+  position: absolute;
+  top: 10%;
+  right: 2%;
+  font-family: cursive;
+  color: white;
+}
+p.groceriespic {
+  position: absolute;
+  top: 17%;
+  right: 2%;
+  font-family: cursive;
+  color: #d32f2f;
+  font-weight: bold;
+  font-size: 20px;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 400px;
+    text-align: center 
+}
+.row::after{
+  content: "";
+    display: table;
+    clear: both;
+}
+.viewpic{
+  height: 200px;
+  width: 200px;
+}
+h1.deals {
+  font-family: cursive;
+  color: crimson;
+  font-size: 25px;
+  text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(237, 232, 104);
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: #d32f2f;
+    padding: 23px 80px;
+    font-family: cursive;
+}
+.active {
+    background-color: black;
+}
+  
+li a:hover:not(.active) {
+    background-color: #111;
+}
+audio{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
